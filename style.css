@@ -1,0 +1,198 @@
+body {
+	font-family: Helvetica, sans-serif;
+	font-size: 22px;
+	font-weight: 700;
+	text-align: center;
+	color: seashell;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+}
+
+
+
+a {
+	color: seashell;
+}
+
+
+
+h2 {
+	font-size: 33px;
+	padding; 10px;
+}
+
+
+
+h3 {
+	font-size: 25.74px;
+	padding; 10px;
+}
+
+
+
+h4 {
+	font-size: 22px;
+	padding; 10px;
+}
+
+
+
+h5 {
+	font-size: 18.26px;
+}
+
+
+
+#header {
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 70px;
+	margin: 0;
+	padding: 0px;
+	border-bottom: 1px solid seashell;
+	background-color: black;
+}
+
+
+
+#header img {
+	display: flex;
+	height: 50px;
+	padding-left: 10px;
+}
+
+
+
+.headerLinks {
+	display: inline-flex;
+	padding-right: 20px;
+	font-weight: normal;
+}
+
+
+
+#pageContent {
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 70px;
+}
+
+
+
+#mission {
+	display: flex;
+	background-image: url(./images/img-mission-background.jpg);
+	height: 700px;
+	width: 1200px;
+}
+
+
+
+.content {
+	background-color: black;
+	height: 100px;
+	width: 100%;
+	margin: auto 0;
+	padding: 10px 0;
+}
+
+
+
+.content h2 {
+	margin: auto;
+}
+
+
+
+#featured {
+	margin: 100px auto;
+	width: 1000px;
+}
+
+
+
+.flexContainer {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+
+.item {
+	margin: 10px;
+	padding: 5px;
+}
+
+
+
+.item img {
+	width: 300px;
+}
+
+
+
+.item p {
+	margin: 0;
+	padding-top: 10px;
+}
+
+
+
+#locations {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: url(./images/img-locations-background.jpg);
+	height: 500px;
+	width: 1200px;
+	margin: auto;
+}
+
+
+
+#locations img {
+	height: 1200px;
+}
+
+
+
+.location {
+	width: 300px;
+	height: 300px;
+	padding: auto 0;
+	margin: 20px;
+	background-color: black;
+}
+
+
+
+.location p {
+	font-weight: normal;
+}
+
+
+
+.title {
+	width: 1200px;
+	margin: 0;
+}
+
+
+
+#footer {
+	height: 200px;
+	padding: 0 20px;
+}
+
+
+
+.copyright {
+	text-align: left;
+	padding-top:30px;
+}
